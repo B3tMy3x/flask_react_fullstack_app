@@ -20,8 +20,6 @@ services:
       dockerfile: Dockerfile.frontend
     environment:
       - NGINX_URL=http://nginx:80
-    volumes:
-      - ./frontend:/app
     ports:
       - "3000:3000"
 
